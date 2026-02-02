@@ -19,7 +19,7 @@ public record MinDistanceResponse(
         return new MinDistanceResponse(
             origenId, origenNombre, 
             destinoId, destinoNombre,
-            Double.POSITIVE_INFINITY,
+            null,
             List.of(),
             false
         );
