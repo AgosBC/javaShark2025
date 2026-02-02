@@ -1,5 +1,6 @@
 package com.javasharks.puntosventaapi.config;
 
+import jakarta.xml.bind.annotation.XmlType;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
@@ -25,7 +26,8 @@ import java.time.Duration;
 @Configuration
 @EnableCaching
 public class RedisConfig {
-    
+
+    public static final Duration DEFAULT_TTL = Duration.ofHours(24);
     /**
      * Configura el CacheManager de Spring con Redis.
      * 
