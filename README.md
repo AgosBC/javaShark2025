@@ -11,10 +11,8 @@ API REST desarrollada en Java 21 con Spring Boot para la gestión de puntos de v
 - [Ejecución](#ejecución)
 - [Testing](#testing)
 - [Endpoints](#endpoints)
-- [Patrones de Diseño](#patrones-de-diseño)
-- [Features de Java Moderno](#features-de-java-moderno)
-- [Diagramas](#diagramas)
-- [Supuestos](#supuestos)
+- [Algunas Features de Java ](#Algunas-Features-de-Java)
+
 
 ## 🚀 Tecnologías
 
