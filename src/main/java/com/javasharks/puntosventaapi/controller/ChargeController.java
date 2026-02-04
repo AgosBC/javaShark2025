@@ -33,9 +33,9 @@ public class ChargeController {
     @DeleteMapping
     @Operation(summary = "Remover un costo entre dos puntos de venta")
     public ResponseEntity<Void> removeCharge(
-            @RequestParam Long idA,
-            @RequestParam Long idB) {
-        chargeService.removeCharge(idA, idB);
+            @RequestParam Long origenId,
+            @RequestParam Long destinoId) {
+        chargeService.removeCharge(origenId, destinoId);
         return ResponseEntity.noContent().build();
     }
     
